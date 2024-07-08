@@ -1,0 +1,15 @@
+{
+  "name": "nodeezcryptor",
+  "version": "1.0.1",
+  "description": "",
+  "main": "decryptor.js",
+  "scripts": {
+    "build": "node-gyp rebuild"
+  },
+  "author": "",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  },
+  "gypfile": true
+}
