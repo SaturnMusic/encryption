@@ -54,7 +54,7 @@ void getKey(char* trackId, char* key) {
     int decoded_length;
     char* decoded = base64_decode(base64_input, strlen(base64_input), &decoded_length);
 
-    const char secret[decoded_length];
+    char secret[decoded_length];
     strcpy(secret, decoded);
     free(decoded);
 
